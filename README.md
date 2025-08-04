@@ -57,7 +57,8 @@ images/: A directory to store all images used on the website, such as profile pi
 
 🙋‍♀️ Connect with Me
 
-GitHub: 
+GitHub: http://github.com/Precious-edet 
+
 Email: edetprecious847@gmail.com
 
 Feel free to explore the code, provide feedback, or connect with me!
