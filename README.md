@@ -65,6 +65,7 @@ git clone https://github.com/YourGitHubUsername/your-repo-name.git
 •	Navigate to the project directory:
 
 cd your-repo-name
+
 Open index.html: Simply double-click the index.html file in your file explorer, and it will open in your default web browser.
 
 🌐 Live Demo
