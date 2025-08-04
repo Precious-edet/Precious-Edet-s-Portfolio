@@ -61,6 +61,7 @@ To view this project on your local machine:
 •	Clone the repository:
 
 git clone https://github.com/YourGitHubUsername/your-repo-name.git
+
 •	Navigate to the project directory:
 
 cd your-repo-name
