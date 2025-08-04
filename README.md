@@ -55,32 +55,19 @@ styles.css: The stylesheet responsible for the entire look and feel of the websi
 
 images/: A directory to store all images used on the website, such as profile pictures, project screenshots, and potential skill icons.
 
-🏃‍♀️ How to Run Locally
-To view this project on your local machine:
-
-•	Clone the repository:
-
-git clone https://github.com/YourGitHubUsername/your-repo-name.git
-
-•	Navigate to the project directory:
-
-cd your-repo-name
-
-Open index.html: Simply double-click the index.html file in your file explorer, and it will open in your default web browser.
-
-🌐 Live Demo
-
-You can view the live version of the portfolio here:
-
-[Link to your live portfolio website] (e.g., GitHub Pages, Netlify, Vercel)
-
 🙋‍♀️ Connect with Me
 
-GitHub: [Your GitHub Profile Link]
-LinkedIn (Optional): [Your LinkedIn Profile Link]
-Email: your.email@example.com
+GitHub: 
+Email: edetprecious847@gmail.com
+
 Feel free to explore the code, provide feedback, or connect with me!
 
 🙏 Acknowledgements
-PLP Academy: For providing the platform and challenge for this hackathon.
-My Mentors & Peers: For invaluable guidance and support throughout my learning journey
+
+PLP Academy:
+
+For providing the platform and challenge for this hackathon.
+
+My Mentors & Peers:
+
+For invaluable guidance and support throughout my learning journey
