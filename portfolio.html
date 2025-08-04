@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Precious Edet, a Frontend Developer and Singer who helps brands grow through modern, user-friendly websites." />
+  <meta name="author" content="Precious Edet" />
+  <title>Precious Edet | Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="main-header">
+    <nav class="main-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-section">
+      <img src="Images\my picture.jpeg" alt="Portrait of Precious Edet" class="profile-image" />
+      <div class="hero-content">
+        <h1>Precious Edet</h1>
+        <p class="subtitle">Frontend Developer</p>
+        <p class="tagline">I help brands grow and stand out through clean, modern, and user-focused websites.</p>
+        <a href="#contact" class="button">Let’s Work Together</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>Hello! I'm Precious Edet — a frontend developer and creative thinker with a love for purposeful design and digital storytelling. I build responsive, accessible, and engaging websites that help brands grow and connect with their audience. I'm also a passionate singer who values creativity, growth, and authenticity in every area of life.</p>
+    </section>
+
+    <section id="education" class="education-section">
+      <h2>Education & Experience</h2>
+
+      <article>
+        <h3>Frontend Development</h3>
+        <p><strong>PLP Academy</strong> — Focused on frontend technologies, responsive design, and real-world projects.</p>
+      </article>
+
+      <article>
+        <h3>Computer Science (In Progress)</h3>
+        <p><strong>University of Calabar (UNICAL)</strong> — Building solid foundations in programming, algorithms, and systems development.</p>
+      </article>
+
+      <div style="text-align: center; margin-top: 20px;">
+        <a href="cv.pdf" class="button" download>Download My CV</a>
+      </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests" class="interests-section container">
+      <h2 class="section-subtitle">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+        </svg>
+        My Tech Interests
+      </h2>
+      <div class="interests-grid">
+        <div class="interest-box">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="#FFD700"/><path d="M8 8h8v2H8zM8 12h5v2H8z" fill="#333"/></svg>
+          <h3>App Development</h3>
+          <p>Building mobile apps that solve real-world problems using intuitive UX and clean code.</p>
+        </div>
+        <div class="interest-box">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M2 6h20M2 12h20M2 18h20" stroke="#000" stroke-width="2" stroke-linecap="round"/></svg>
+          <h3>Web Design</h3>
+          <p>Designing modern, responsive websites that are user-focused and aesthetically pleasing.</p>
+        </div>
+        <div class="interest-box">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#1E90FF" stroke-width="2" fill="none"/><path d="M12 6v6l4 2" stroke="#1E90FF" stroke-width="2" stroke-linecap="round"/></svg>
+          <h3>Tech Innovations</h3>
+          <p>Exploring trends like AI, blockchain, and IoT to drive digital transformation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>My Core Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-item primary-skill">
+          <h3>HTML5</h3>
+          <p>Structuring semantic and accessible web content.</p>
+        </div>
+        <div class="skill-item primary-skill">
+          <h3>CSS3</h3>
+          <p>Crafting beautiful, responsive, and engaging user interfaces.</p>
+        </div>
+       
+        <div class="skill-item">
+          <h3>Git & GitHub</h3>
+          <p>Version control and collaborative development workflows.</p>
+        </div>
+      </div>
+      <p class="skills-note">I'm continuously expanding my toolkit to build robust and modern web experiences!</p>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li class="project-card">
+          <img src="Images\project.png" alt="Screenshot of portfolio project" />
+          <h3>Personal Portfolio</h3>
+          <p>Responsive portfolio built with HTML and CSS to showcase my skills and journey.</p>
+          <a href="#" class="project-link">View Live</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>Let’s create something amazing together. Whether it’s a website for your business, a collaboration, or just a conversation — I’m open to connect!</p>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Precious Edet. Built with ❤️ and HTML/CSS.</p>
+  </footer>
+
+</body>
+</html>
